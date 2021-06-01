@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getuser",
+				"outputs": [
+					{
+						"internalType": "enum Enum.userrole",
+						"name": "role_",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setadminrole",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setuserrole",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"enum.sol": "Enum"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"enum.sol": {
+			"keccak256": "0xa0405c1fdedd9f5505f38da60d60e4f93b16b321b52cada09bf297475f25deec",
+			"urls": [
+				"bzz-raw://bdd2417de2e32429b35470b4009f765ef1eda051ffa4127a2a3c0c104840e944",
+				"dweb:/ipfs/QmNzE5cX8r74A2iD8RJ5yLcHeM3HDk5jKvCNZjVg5SZho6"
+			]
+		}
+	},
+	"version": 1
+}
