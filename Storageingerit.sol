@@ -38,7 +38,7 @@ modifier onlyadmin(){
 
     
     
- function setuser(uint uid,string memory _name,uint _age) internal   returns(bool){
+ function setuser(uint uid,string memory _name,uint _age) public   returns(bool){
    uint uid =  uid++;
 //   Roleassigned.role = Roleassigned.user;
    user[uid].name = _name;
@@ -75,9 +75,6 @@ modifier onlyadmin(){
 
 }
 
-
-
-
 contract Controller is Storage{
    Storage public _store;
    
@@ -93,5 +90,5 @@ contract Controller is Storage{
    
    
     
-    
+   
 }
