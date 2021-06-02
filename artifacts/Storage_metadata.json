@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.0+commit.c7dfd78e"
+		"version": "0.8.1+commit.df193b15"
 	},
 	"language": "Solidity",
 	"output": {
@@ -97,6 +97,25 @@
 				],
 				"name": "getdetails",
 				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "Book",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [
@@ -266,10 +285,10 @@
 	},
 	"sources": {
 		"Storageingerit.sol": {
-			"keccak256": "0x752961fdd48974fed1bdf7a7dea149740341077deecaa89e3dc40ee5dd749a47",
+			"keccak256": "0x7b46a568217797c13c75468f1397e37aebbaf0a926aa99e1b5e933fa81c00597",
 			"urls": [
-				"bzz-raw://1a52058ca662f98d59099e2d43530dd5cd4057fe98a91ed1a06ee1474d16d600",
-				"dweb:/ipfs/QmNY1grtp1gP7oN9xDGutrUE9fCMSqZgy7DkRJAtrENhzo"
+				"bzz-raw://3ae11e0c97a156a4c140a33b5549524d0598a75255d5240dccb9134232a0cc56",
+				"dweb:/ipfs/QmRtmbSdPzm6CWpGMt1ssivaZvZkYqnzo6BF79yTkkFM2a"
 			]
 		}
 	},

@@ -157,10 +157,10 @@
 	},
 	"sources": {
 		"new.sol": {
-			"keccak256": "0xef2adbfa644715406d2e03a5abf523034eafd026fe8eea4a1fdd33bc0f5ee8b3",
+			"keccak256": "0xc42a31e8575aec030db0a2736842cb8f43d86dc8fad3926c414d1479326a3774",
 			"urls": [
-				"bzz-raw://d2a30051d5790792f323dd204a5edfd534b19d2bdd56b915a48365d06cd66c96",
-				"dweb:/ipfs/QmZ8juLLRj2DMo6AZuerHHGxxzF26EiZ2uhDUPhm2zK7zm"
+				"bzz-raw://52795d2b426c9c5a94b4d96563feadf9a0e1f3482e6e68c6a5e88de4a7ec2b7d",
+				"dweb:/ipfs/QmUNgeEZ6uF7cBCXKq6bxTbafwPiUNfFnHLPYp1rMepN1E"
 			]
 		}
 	},

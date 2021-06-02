@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "Book",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Storageingerit.sol": "Access"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Storageingerit.sol": {
+			"keccak256": "0x7b46a568217797c13c75468f1397e37aebbaf0a926aa99e1b5e933fa81c00597",
+			"urls": [
+				"bzz-raw://3ae11e0c97a156a4c140a33b5549524d0598a75255d5240dccb9134232a0cc56",
+				"dweb:/ipfs/QmRtmbSdPzm6CWpGMt1ssivaZvZkYqnzo6BF79yTkkFM2a"
+			]
+		}
+	},
+	"version": 1
+}

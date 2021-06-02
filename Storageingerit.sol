@@ -1,7 +1,10 @@
 pragma solidity ^0.8.0;
 
+contract Access{
+    mapping(address=>bool) public Book;
+}
 
-contract Storage
+contract Storage is Access
 {
     
     enum Roleassigned{user,admin}
@@ -43,6 +46,7 @@ modifier onlyadmin(){
 //   Roleassigned.role = Roleassigned.user;
    user[uid].name = _name;
    user[uid].age = _age;
+   user[uid].useradd = msg.sender;
    notadmin[msg.sender] = true;
    emit NewUser(msg.sender,block.timestamp);
    return true;
@@ -58,7 +62,7 @@ modifier onlyadmin(){
  
  
  function getuser(uint id) public returns(string memory , uint ,address){
-     return(user[id].name, user[id].age,user[id].useradd);
+     return user[id].name, user[id].age,user[id].useradd;
  }
  
  constructor(){
@@ -75,17 +79,21 @@ modifier onlyadmin(){
 
 }
 
+
+
+
 contract Controller is Storage{
    Storage public _store;
    
    
-   function deploynameage(string memory name,uint age) public {
+   function deploynameage(string memory name,uint age) public  returns(bool){
        _store = new Storage();
        _store.setuser(uid , name , age );
+       return true;
    }
    
    function deploygetuser(uint id) public  returns(string memory , uint ,address){
-       return _store.getuser(id);
+       return (_store.getuser(id));
    }
    
    
