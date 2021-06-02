@@ -1,8 +1,5 @@
 pragma solidity ^0.8.0;
 
-contract Access{
-    mapping(address=>bool) public Book;
-}
 
 contract Storage is Access
 {
