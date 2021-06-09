@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "owners",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Crowd Funding/funding.sol": "fun"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Crowd Funding/funding.sol": {
+			"keccak256": "0x788d3b9325cd6083d5db268f6549f9a2363b7fbe9664ec48260c6fd298157ea6",
+			"urls": [
+				"bzz-raw://fb06a9397b26af0d987b67aa67f923729b3f7365854043ea5ee6778052145b0a",
+				"dweb:/ipfs/QmQzb9QhHUmjhNBgqCoaABjwQWuV576fUWbZ66bBaRtKH6"
+			]
+		}
+	},
+	"version": 1
+}

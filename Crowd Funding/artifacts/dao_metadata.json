@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "owners",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Crowd Funding/dao.sol": "dao"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Crowd Funding/dao.sol": {
+			"keccak256": "0x85569adef0680cfaccb457ad86ba3f07c11faa976f679c31702be1e8e0e0a0bd",
+			"urls": [
+				"bzz-raw://50d9598fbeb423f83ff7a7dba68c5b7f159bcd1279c6cb849e9c94981e153347",
+				"dweb:/ipfs/QmZhJUcKRgqDHwztS73hjLgWrGcMw7bKz5wPjWzQaAANyv"
+			]
+		}
+	},
+	"version": 1
+}
