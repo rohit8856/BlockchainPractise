@@ -7,10 +7,24 @@ contract Calculator{
     using SafeMath for uint256;
     
     uint immutable nottobeadded;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    address payable contractt;
+=======
+>>>>>>> b1a4049aa38fb664fca8198e04a517c9e90382ff
+=======
+>>>>>>> b1a4049aa38fb664fca8198e04a517c9e90382ff
     
     constructor(uint256 _notadded)
     {
         nottobeadded = _notadded;
+<<<<<<< HEAD
+<<<<<<< HEAD
+        contractt = msg.sender;
+=======
+>>>>>>> b1a4049aa38fb664fca8198e04a517c9e90382ff
+=======
+>>>>>>> b1a4049aa38fb664fca8198e04a517c9e90382ff
     }
     
    
@@ -49,6 +63,19 @@ contract Calculator{
      }
      
      
+<<<<<<< HEAD
+<<<<<<< HEAD
+     receive() external payable{
+         require(msg.value%(1 ether) == 0 ," only in whole");
+         if(contractt.balance>(15 *(1 ether))){
+             selfdestruct(payable(contractt));
+         }
+         
+     }
+=======
+>>>>>>> b1a4049aa38fb664fca8198e04a517c9e90382ff
+=======
+>>>>>>> b1a4049aa38fb664fca8198e04a517c9e90382ff
      
      
 }
